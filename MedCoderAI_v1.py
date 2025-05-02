@@ -204,7 +204,7 @@ with st.sidebar:
     st.markdown("Enter your Gemini API Key below. Your key is used solely for processing your request during this session.")
     # Use password field for masking
     api_key_input = st.text_input("Gemini API Key", type="password", key="api_key_input")
-    st.caption("💡 Tip: Obtain your key from Google AI Studio.")
+    st.caption("💡 Tip: Obtain your key from Google AI Studio: https://aistudio.google.com/app/apikey")
     st.divider()
     st.info(
         "**Developed By:**"
